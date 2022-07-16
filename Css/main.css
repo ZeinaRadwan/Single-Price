@@ -1,0 +1,318 @@
+/*Global Rules*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+a {
+  text-decoration: none;
+}
+/*End Global Rules*/
+.main-parent {
+  position: relative;
+}
+.parent {
+  background-color: white;
+  width: 850px;
+  height: 600px;
+  max-width: 100%;
+  margin-left: 165px;
+  margin-top: 135px;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+  position: relative;
+  top: 50%;
+  left: 50px;
+  box-shadow: 0 0 14px 0px #00000036;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+@media (max-width: 375px) {
+  .parent {
+    width: 350px;
+    height: 900px;
+    top: 30px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .parent {
+    width: 508px;
+  }
+}
+.parent h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+@media (max-width: 375px) {
+  .parent h1 {
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .parent h1 {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+}
+.parent h2 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  margin-top: -160px;
+  margin-left: 50px;
+}
+@media (max-width: 375px) {
+  .parent h2 {
+    margin-top: -200px;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .parent h2 {
+    margin-top: -220px;
+    margin-left: 30px;
+  }
+}
+.parent p {
+  color: hsl(218, 22%, 67%);
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: -390px;
+  margin-right: 100px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}
+@media (max-width: 375px) {
+  .parent p {
+    margin-top: -400px;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-right: 0px;
+    margin-left: 30px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .parent p {
+    margin-top: -450px;
+    font-size: 19px;
+    margin-left: 30px;
+  }
+}
+.main-parent .first-box {
+  background-color: hsl(179, 62%, 43%);
+  top: -300px;
+  border-bottom-left-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  width: 425px;
+  height: 300px;
+  left: 215px;
+}
+@media (max-width: 375px) {
+  .main-parent .first-box {
+    left: 215px;
+    width: 350px;
+    top: -570px;
+    border-bottom-left-radius: 0px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .main-parent .first-box {
+    width: 254px;
+  }
+}
+.main-parent .first-box h2 {
+  color: white;
+  margin-left: 50px;
+  padding-top: 10px;
+  letter-spacing: 0.2px;
+}
+@media (max-width: 375px) {
+  .main-parent .first-box h2 {
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top: -20px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .main-parent .first-box h2 {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -20px;
+  }
+}
+.main-parent .first-box h3 {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: -50px;
+}
+@media (max-width: 375px) {
+  .main-parent .first-box h3 {
+    margin-left: 30px;
+    margin-top: -90px;
+  }
+}
+
+.main-parent .first-box h3 span {
+  color: rgb(229 239 245 / 78%);
+  font-size: 20px;
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .main-parent .first-box h3 {
+    margin-left: 30px;
+  }
+}
+.main-parent .first-box p {
+  color: hsl(204, 43%, 93%);
+  margin-left: 50px;
+  margin-top: -70px;
+  font-size: 20px;
+}
+@media (max-width: 375px) {
+  .main-parent .first-box p {
+    margin-left: 30px;
+    margin-top: -120px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .main-parent .first-box p {
+    font-size: 14px;
+    margin-left: 30px;
+  }
+}
+.main-parent .first-box button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  width: 300px;
+  height: 60px;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: -85px;
+  border: 1px solid hsl(71, 73%, 54%);
+  border-radius: 5px;
+  box-shadow: 0 0 14px 0px #00000036;
+  font-size: 20px;
+  letter-spacing: 0.3px;
+}
+@media (max-width: 375px) {
+  .main-parent .first-box button {
+    margin-left: 30px;
+    margin-top: -100px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .main-parent .first-box button {
+    margin-left: 30px;
+    width: 200px;
+  }
+}
+.main-parent .second-box {
+  background-color: hsl(179deg 62% 43% / 72%);
+  width: 425px;
+  height: 300px;
+  left: 640px;
+  top: -600px;
+  border-bottom-right-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+@media (max-width: 375px) {
+  .main-parent .second-box {
+    width: 350px;
+    left: 215px;
+    top: -570px;
+    border-bottom-left-radius: 6px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .main-parent .second-box {
+    width: 254px;
+    left: 469px;
+  }
+}
+.main-parent .second-box h2 {
+  color: white;
+  margin-left: 50px;
+  letter-spacing: 0.2px;
+  margin-top: 10px;
+}
+@media (max-width: 375px) {
+  .main-parent .second-box h2 {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .main-parent .second-box h2 {
+    margin-top: -25px;
+    font-size: 16px;
+  }
+}
+.main-parent .second-box p {
+  margin-left: 50px;
+  font-size: 15px;
+  color: hsl(204, 43%, 93%);
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+  margin-right: 15px;
+  padding-right: 172px;
+  margin-top: -20px;
+}
+@media (max-width: 375px) {
+  .main-parent .second-box p {
+    margin-right: -35px;
+    padding-right: 130px;
+    font-size: 16px;
+    margin-top: -40px;
+    margin-left: 30px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  .main-parent .second-box p {
+    margin-right: 5px;
+    padding-right: 7px;
+    margin-top: -70px;
+  }
+}
+footer .footer {
+  font-size: 25px;
+  text-align: center;
+  transform: translate(-70px, -570px);
+  font-weight: bold;
+}
+@media (max-width: 375px) {
+  footer .footer {
+    font-size: 14px;
+    transform: translate(200px, -500px);
+  }
+}
+@media (min-width: 376px) and (max-width: 1200px) {
+  footer .footer {
+    font-size: 20px;
+    transform: translate(210px, -570px);
+  }
+}
+.footer a {
+  color: hsl(228, 45%, 44%);
+}
+a:visited {
+  color: blueviolet;
+}
